@@ -10,9 +10,9 @@
 //Complexity Value : 6    
 function divisibleSumPairs(n, k, ar) {
     let countOfValue = 0;
-    for (let i = 0; i < n; i++) {
-        for (let j = n; j >= 0; j--) {
-            if (i < j && (((ar[i] + ar[j]) % k) === 0)) {
+    for (let initialValue = 0; initialValue < n; initialValue++) {
+        for (let nextValue = n; nextValue >= 0; nextValue--) {
+            if (initialValue < nextValue && (((ar[initialValue] + ar[nextValue]) % k) === 0)) {
                 countOfValue++;
             }
         }
