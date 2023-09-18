@@ -1,3 +1,12 @@
+//Function Description
+//Complete the migratoryBirds function in the editor below.
+    //migratoryBirds has the following parameter(s):
+    //int arr[n]: the types of birds sighted
+//Returns
+    //int: the lowest type id of the most frequently sighted birds
+
+
+//Complexity Value : 7
 function findMostFrequentBirdType(arr) {
     const birdCounts = {};
     let maxCount = 0;
