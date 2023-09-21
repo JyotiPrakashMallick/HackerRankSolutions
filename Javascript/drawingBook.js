@@ -5,8 +5,6 @@
 //Returns
     //int: the minimum number of pages to turn
 
-
-
 //Complexity Value : 3
 function pageCount(n, p) {
     const traverseFromFront = Math.floor(p / 2);
